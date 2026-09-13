@@ -1,2 +1,2 @@
-# galeriaintima.org
-Sitio Web de la Galería Íntima
+# la-esquina.org
+Sitio Web de la La Esquina, librería y centro de arte
