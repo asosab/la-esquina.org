@@ -1,16 +1,16 @@
-# Galería Íntima
+# La Esquina
 ## Columna vertebral conceptual para Santa Cruz de la Sierra
 
 ---
 
 ### 1. La idea central
 
-Galería Íntima es un espacio donde cada estante tiene dueño.
+La Esquina es un espacio donde cada estante tiene dueño.
 Cada persona que adquiere un estante lo usa para mostrarse a través de algunos de sus libros, objetos, notas manuscritas y lo que decida colocar. El estante se convierte en una ventana a su cabeza, a sus gustos, a su forma de ver el mundo. Cada estante tiene también su propia ficha: quien se sienta a leer un libro prestado puede anotar ahí su nombre, y esa ficha arma la conexión entre quien abre su estante y su historia, y quien se detiene a mirar, a elegir, a quedarse un rato.
 
-El corazón del proyecto es el préstamo de libros. Cualquier persona puede entrar, leer y hojear libremente dentro de la galería, sin costo y sin necesidad de suscripción. Quien quiere llevarse un libro a su casa saca una suscripción anual de lector, con un préstamo de hasta dos semanas por libro. Los dueños de estante siguen decidiendo con libertad qué colocar (libros, objetos, notas), pero la razón de ser del espacio, igual que en sus modelos de origen (ver sección 2), es que los libros circulen entre desconocidos.
+El corazón del proyecto es el préstamo de libros. Cualquier persona puede entrar, leer y hojear libremente dentro de La Esquina, sin costo y sin necesidad de suscripción. Quien quiere llevarse un libro a su casa saca una suscripción anual de lector, con un préstamo de hasta dos semanas por libro. Los dueños de estante siguen decidiendo con libertad qué colocar (libros, objetos, notas), pero la razón de ser del espacio, igual que en sus modelos de origen (ver sección 2), es que los libros circulen entre desconocidos.
 
-El público de Galería Íntima incluye a toda la ciudad: la gente del centro que busca piezas de cultura para participar de ellas, que llega a alimentarse de lo que un grupo concreto de personas decidió mostrar, y que puede volver a su casa con un libro bajo el brazo.
+El público de La Esquina incluye a toda la ciudad: la gente del centro que busca piezas de cultura para participar de ellas, que llega a alimentarse de lo que un grupo concreto de personas decidió mostrar, y que puede volver a su casa con un libro bajo el brazo.
 
 La gente que adquiere un estante consigue un lugar donde **mostrarse y encontrarse**. El proyecto también es la riqueza cultural de un grupo de personas variopintas, y la riqueza de toda una sociedad: su necesidad de cultura, su gusto por la lectura, y los espacios donde todos, finalmente, participan.
 
@@ -56,7 +56,7 @@ Los costos se reparten en una comunidad. Así el espacio se sostiene desde adent
 ### 4. Cómo funciona en la práctica
 
 **4.1. El estante**
-- **Tamaño del estante en Galería Íntima:** 35 cm de alto × 50 cm de ancho × 35 cm de profundidad.
+- **Tamaño del estante en La Esquina:** 35 cm de alto × 50 cm de ancho × 35 cm de profundidad.
 - El dueño decide qué pone: libros propios, libros prestados, objetos, notas escritas a mano, tarjetas, fotos, pequeños objetos simbólicos.
 - Cada estante debe tener al menos un par de libros: son el centro del estante, lo que sostiene la conexión con quien se detiene a leer y a pensar en la persona que eligió justo ese título.
 - Puede cambiar el contenido cuando quiera.
@@ -64,11 +64,11 @@ Los costos se reparten en una comunidad. Así el espacio se sostiene desde adent
 - El estante es su "ventana pública".
 
 **4.2. El préstamo de libros**
-- Leer dentro de la galería es libre y gratuito para cualquier persona, sin necesidad de registro ni pago.
+- Leer dentro de La Esquina es libre y gratuito para cualquier persona, sin necesidad de registro ni pago.
 - Quien quiere llevarse un libro a su casa saca una suscripción anual de lector (monto en definición, ver sección 7.8).
 - El préstamo tiene un plazo máximo de dos semanas por libro.
 - El sistema de préstamo funciona sobre los libros que los propios dueños de estante deciden compartir; cada estante sigue siendo, ante todo, un espacio de expresión personal.
-- La ficha de cada estante (ver 4.1) y el registro de préstamos son complementarios: una deja constancia de quién se detuvo a leer, el otro habilita que el libro salga de la galería por un tiempo.
+- La ficha de cada estante (ver 4.1) y el registro de préstamos son complementarios: una deja constancia de quién se detuvo a leer, el otro habilita que el libro salga de La Esquina por un tiempo.
 
 **4.3. El financiamiento**
 - El número total de estantes es 150.
@@ -86,7 +86,7 @@ Los costos se reparten en una comunidad. Así el espacio se sostiene desde adent
 
 **4.5. La comunidad**
 - Los 148 dueños de estante que pagan cuota (más 2 estantes reservados para intercambio o donación) son co-propietarios del proyecto.
-- Son los primeros en enterarse y discutir las actividades, y tienen prioridad para participar de charlas y talleres, considerando que Galería Íntima tiene un aforo máximo de 40 personas.
+- Son los primeros en enterarse y discutir las actividades, y tienen prioridad para participar de charlas y talleres, considerando que La Esquina tiene un aforo máximo de 40 personas.
 - Participar de esta comunidad es un privilegio permanente al que están invitados en todo momento, sin exigencia de por medio.
 - Se genera un grupo de comunicación interno (WhatsApp, Telegram o similar).
 - Se pueden organizar encuentros, lecturas, conversaciones, intercambios.
@@ -118,12 +118,12 @@ Los costos se reparten en una comunidad. Así el espacio se sostiene desde adent
 
 #### 6.2. Tamaño de estante de referencia
 
-- **35 cm de alto × 50 cm de ancho × 35 cm de profundidad** (tamaño definido para Galería Íntima, distinto del módulo de referencia de Casual Poet Library citado en el origen del modelo).
+- **35 cm de alto × 50 cm de ancho × 35 cm de profundidad** (tamaño definido para La Esquina, distinto del módulo de referencia de Casual Poet Library citado en el origen del modelo).
 - Con este tamaño, y un retiro de 25 cm desde el piso hasta la base del primer nivel, hay margen para 6 niveles por columna sin que la base del estante más alto supere los 2,30 m de altura (el techo real del local está a más de 3 m). El detalle final de columnas y niveles por pared se cierra con la subcontratación del diseño arquitectónico.
 
 #### 6.3. Cantidad de estantes
 
-El diseño final del espacio, a cargo de la subcontratación del diseño arquitectónico, contempla **150 estantes** distribuidos por distintas superficies de la galería (no limitados a dos paredes laterales, que era el cálculo preliminar más simple).
+El diseño final del espacio, a cargo de la subcontratación del diseño arquitectónico, contempla **150 estantes** distribuidos por distintas superficies de La Esquina (no limitados a dos paredes laterales, que era el cálculo preliminar más simple).
 
 Esta cantidad equilibra:
 - Una comunidad más amplia de dueños, lo que además baja el punto de equilibrio relativo (ver sección 7).
@@ -206,20 +206,20 @@ Simplificar a un solo precio facilita la administración (una sola fecha de reno
 
 #### 7.3. Quiénes llevan el proyecto
 
-Galería Íntima es impulsada por:
+La Esquina es impulsada por:
 
 **Alejandro Sosa**
 Fotógrafo y consultor tecnológico.
 Desarrolla la idea, genera los contactos y construye la arquitectura entre el mundo real y el digital.
 Asume la responsabilidad de coordinador (sueldo USD 370) por los trabajos administrativos, organizacionales, entrenamientos, community management, operación diaria, eventos y cuidado del Estante de los Miedos.
-Ya adquirió el dominio **galeriaintima.org**. Próximamente se publicará una landing page que servirá como primer punto de contacto digital del proyecto.
-Crea el sitio web, los sistemas de registro histórico de todo y todos los que pasan por la galería, y el tour virtual que hace llegar el espacio físico más allá de la estructura tangible.
+Ya adquirió el dominio **la-esquina.org**. Próximamente se publicará una landing page que servirá como primer punto de contacto digital del proyecto.
+Crea el sitio web, los sistemas de registro histórico de todo y todos los que pasan por La Esquina, y el tour virtual que hace llegar el espacio físico más allá de la estructura tangible.
 
 El desarrollo de la arquitectura y amoblado del local se resuelve por **subcontratación** (sin nombre y apellido asociado al proyecto).
 
 #### 7.4. Vida cultural del espacio
 
-Galería Íntima está presente en todas las redes sociales.
+La Esquina está presente en todas las redes sociales.
 Se realiza al menos un evento mensual.
 Se procuran talleres y todo tipo de encuentros todas las semanas.
 El superávit de la cuenta del espacio, junto con el ingreso de las suscripciones de lectores (ver 7.8), sostiene esta actividad cultural continua.
@@ -280,7 +280,7 @@ Hay un punto importante que corrige el cálculo anterior: como el pago de USD 10
 
 Con el CAPEX actualizado (que incorpora el diseño y la supervisión de la instalación arquitectónica por USD 530 y ajusta el resto de ítems de equipamiento), el año 1 se **autofinancia** solo con las cuotas de los 148 estantes, incluso en el peor escenario (sin apoyos al Estante de los Miedos ni suscripciones de lectores). El superávit es mínimo (+USD 5,50), pero cierra el hueco que antes existía. A partir del año 2, sin un CAPEX grande nuevo, el mismo ingreso de cuotas ya alcanza cómodamente para cubrir la operación con un superávit amplio (ver 7.2 y la Proyección 24 meses del modelo financiero adjunto), salvo el efecto de la inflación local (ver 7.9).
 
-**Estimación de inversión inicial (CAPEX)** (alineada con `galeria_intima_modelo.xlsx`):
+**Estimación de inversión inicial (CAPEX)** (alineada con `la_esquina_modelo.xlsx`):
 
 | Concepto                              | Estimación (USD) |
 |---------------------------------------|-------------------|
@@ -296,7 +296,7 @@ Con el CAPEX actualizado (que incorpora el diseño y la supervisión de la insta
 | Diseño y supervisión de instalación arquitectónica (subcontratación) | 530 |
 | Imprevistos y otros                   | 300               |
 | **Total estimado**                    | **6.935**         |
-| Dominio galeriaintima.org (primer año, ya pagado, no suma al total) | 8,18 |
+| Dominio la-esquina.org (primer año, ya pagado, no suma al total) | 8,18 |
 
 *Nota sobre el agua:* el dispensador es una compra única (CAPEX). El costo recurrente del botellón semanal (USD 1,5/semana) se prorratea como gasto mensual dentro de los costos operativos (ver tabla de la sección 7), no aquí.
 
@@ -335,7 +335,7 @@ Todo este modelo está expresado en USD, pero los costos reales del local (alqui
 - A septiembre de 2026, el tipo de cambio oficial/referencial ronda los Bs 12,60 por dólar, y el paralelo ronda Bs 12,30-12,50 (una brecha de apenas 1-3%, mucho menor que la brecha histórica de años anteriores).
 - La inflación en Bolivia cerró 2025 en 20,4%, uno de los niveles más altos en décadas, por la escasez de dólares. En 2026 se desaceleró: acumulaba 3,01% entre enero y agosto, con una variación interanual de 5,02% en agosto; el BCB proyectaba un cierre de año cercano a 9,22%.
 
-**Qué significa esto para Galería Íntima:**
+**Qué significa esto para La Esquina:**
 - Los USD 108 por estante son un monto fijo, cobrado una vez al año. Si los costos en bolivianos suben durante ese año (por inflación local), el margen operativo se achica sin que la cuota se ajuste a mitad de camino.
 - El modelo financiero adjunto incluye un supuesto de planificación de **10% de ajuste anual** para los costos en bolivianos (redondeando hacia arriba la proyección del BCB para 2026), aplicado como sensibilidad al segundo año de la Proyección 24 meses: con ese ajuste, el costo fijo mensual pasaría de USD 753,63 a aproximadamente **USD 828,99**, reduciendo el superávit mensual a ocupación plena de USD 578,38 a cerca de **USD 503,01** (148 estantes, peor escenario, sin Miedos ni suscripciones).
 - Esto no cambia la conclusión sobre la brecha del año 1 (sección 7.6), pero sí refuerza la necesidad de no depender de un margen ajustado: cualquier salto adicional en la inflación local reduce aún más el colchón disponible.
@@ -392,7 +392,7 @@ Es decir: si la cuota se reajusta en dólares (repreciando el monto en boliviano
 
 ### 9. Naturaleza del proyecto
 
-Galería Íntima es un espacio de personas concretas que se muestran y se encuentran a través de sus estantes.
+La Esquina es un espacio de personas concretas que se muestran y se encuentran a través de sus estantes.
 Se sostiene desde la comunidad de dueños, el trabajo de Alejandro Sosa y los turnos de voluntarios.
 Cada estante lleva nombre y apellido.
 
@@ -409,7 +409,7 @@ No. Un estante por persona. Eso protege lo que hace valioso al proyecto (150 mir
 
 **4. ¿Cómo se genera la primera masa crítica de 148 dueños pagantes (más 2 estantes reservados para intercambio o donación), la meta necesaria para construir e inaugurar?**
 Se refuerza la estrategia de la sección 13 con:
-- Mostrar el avance en tiempo real (tablero en la landing page de galeriaintima.org: ver cuántos estantes van cubiertos genera urgencia social).
+- Mostrar el avance en tiempo real (tablero en la landing page de la-esquina.org: ver cuántos estantes van cubiertos genera urgencia social).
 - Un encuentro de preapertura, aunque sea sin local todavía, donde los primeros comprometidos se conozcan entre sí: la comunidad se siente real antes de tener paredes.
 - Una alianza de lanzamiento con el AECID, aprovechando la ubicación frente a su sede, que le da peso institucional a la convocatoria sin tocar el carácter personal de los estantes.
 - Un reconocimiento simbólico a los primeros 75 (la mitad del camino), por ejemplo mención como "estante fundador", sin privilegios económicos distintos al resto.
@@ -446,7 +446,7 @@ Cada estante lleva nombre y apellido. En el caso de empresas o instituciones, el
 
 Estimada / Estimado [Nombre y Apellido],
 
-En el centro de Santa Cruz de la Sierra abrimos **Galería Íntima**.
+En el centro de Santa Cruz de la Sierra abrimos **La Esquina**.
 
 Es un espacio donde 150 personas tienen cada una su propio estante.
 Un estante pequeño (35 × 50 × 35 cm) que se convierte en una ventana a su cabeza: libros que ama, objetos que le importan, notas escritas a mano, fragmentos de su forma de ver el mundo.
@@ -515,7 +515,7 @@ Ya existen cuatro activos clave:
 - Posibilidad de subcontratar el diseño arquitectónico y equipamiento del espacio.
 - Un local posible en el centro (frente al AECID).
 - Una red de personas cercanas para iniciar el boca a boca.
-- El dominio **galeriaintima.org** ya adquirido; próximamente se publicará una landing page (con tablero de avance de estantes cubiertos).
+- El dominio **la-esquina.org** ya adquirido; próximamente se publicará una landing page (con tablero de avance de estantes cubiertos).
 
 La estrategia se organiza en tres capas que avanzan en paralelo.
 
@@ -547,7 +547,7 @@ Meta de esta capa: cubrir el **100% de los 148 estantes disponibles para alquile
 
 #### Capa 3. Operación mínima para abrir
 
-1. Alejandro Sosa asume la coordinación (USD 370: trabajos administrativos, organizacionales, entrenamientos, community management y capa digital). Desarrolla el sitio web (dominio galeriaintima.org ya adquirido), tour virtual y sistemas de registro.
+1. Alejandro Sosa asume la coordinación (USD 370: trabajos administrativos, organizacionales, entrenamientos, community management y capa digital). Desarrolla el sitio web (dominio la-esquina.org ya adquirido), tour virtual y sistemas de registro.
 2. Armar el sistema simple de turnos de voluntarios y su entrenamiento para el Estante de los Miedos.
 3. Definir el reglamento corto del espacio (incluye: un estante por persona, renovación anual con una semana de anticipación, lista de espera, préstamo máximo de dos semanas).
 4. Montaje físico con la subcontratación del diseño arquitectónico y voluntarios.
@@ -555,7 +555,7 @@ Meta de esta capa: cubrir el **100% de los 148 estantes disponibles para alquile
 
 #### Orden recomendado de acciones inmediatas (próximos 15 días)
 
-1. Publicar la landing page en **galeriaintima.org** (con tablero de avance de estantes cubiertos).
+1. Publicar la landing page en **la-esquina.org** (con tablero de avance de estantes cubiertos).
 2. Reunión con la subcontratación del diseño arquitectónico y visita al local posible.
 3. Confirmar costos exactos de adecuación y equipamiento.
 4. Elaborar la lista de las primeras 40-60 personas a contactar.
@@ -617,7 +617,7 @@ Columnas: Prioridad (Alta / Media / Baja) y Estado de la conversación.
 
 ### 15. Modelo legal: Asociación Civil
 
-Galería Íntima se constituye como **Asociación Civil sin fines de lucro**.
+La Esquina se constituye como **Asociación Civil sin fines de lucro**.
 
 Esta figura permite:
 - Recibir donaciones, auspicios y apoyos de personas, empresas e instituciones.
@@ -628,11 +628,11 @@ Esta figura permite:
 
 #### Por qué esta figura
 La Asociación Civil se basa en la unión de personas con un fin cultural y comunitario común.
-Es la estructura más flexible y adecuada para un espacio como Galería Íntima en Santa Cruz de la Sierra.
+Es la estructura más flexible y adecuada para un espacio como La Esquina en Santa Cruz de la Sierra.
 El trámite de personería jurídica de alcance departamental se realiza ante el Gobierno Autónomo Departamental de Santa Cruz.
 
 #### Pasos básicos para su creación
-1. Definir el nombre exacto (ejemplo: Asociación Civil Galería Íntima).
+1. Definir el nombre exacto (ejemplo: Asociación Civil La Esquina).
 2. Redactar el Acta de Fundación, el Estatuto Orgánico y el Reglamento Interno.
 3. Realizar la Asamblea Constitutiva con al menos tres personas (Alejandro Sosa y al menos dos personas más).
 4. Protocolizar los documentos ante Notario de Fe Pública.
@@ -654,6 +654,6 @@ La formalización como Asociación Civil se realiza apenas exista un núcleo est
 
 ---
 
-*Documento base para el desarrollo conceptual de Galería Íntima en el centro de Santa Cruz de la Sierra.*
+*Documento base para el desarrollo conceptual de La Esquina en el centro de Santa Cruz de la Sierra.*
 *Inspirado en modelos de bibliotecas comunitarias de estantes compartidos (ver punto 2, "Origen del modelo").*
-*Actualizado con: 150 estantes físicos (35 × 50 × 35 cm cada uno), de los cuales 148 se alquilan y generan cuota y 2 se reservan para intercambio o donación; cuota única USD 9/mes con pago anual adelantado (USD 108); CAPEX alineado con galeria_intima_modelo.xlsx (total USD 6.935, incluye diseño y supervisión de instalación arquitectónica por USD 530 como subcontratación, sin nombre y apellido); carpintería USD 2.920; sueldo del coordinador Alejandro Sosa USD 370; año 1 se autofinancia en el peor escenario (superávit ≈ USD +5,50); sección de riesgo cambiario e inflación en Bolivia; sistema de préstamo de libros con suscripción anual de lector (USD 10/año, monto provisional); dominio galeriaintima.org; decisiones sobre cuota/membresía, rotación anual, un estante por persona, masa crítica, planilla y archivo de miedos, formalización de roles.*
+*Actualizado con: 150 estantes físicos (35 × 50 × 35 cm cada uno), de los cuales 148 se alquilan y generan cuota y 2 se reservan para intercambio o donación; cuota única USD 9/mes con pago anual adelantado (USD 108); CAPEX alineado con la_esquina_modelo.xlsx (total USD 6.935, incluye diseño y supervisión de instalación arquitectónica por USD 530 como subcontratación, sin nombre y apellido); carpintería USD 2.920; sueldo del coordinador Alejandro Sosa USD 370; año 1 se autofinancia en el peor escenario (superávit ≈ USD +5,50); sección de riesgo cambiario e inflación en Bolivia; sistema de préstamo de libros con suscripción anual de lector (USD 10/año, monto provisional); dominio la-esquina.org; decisiones sobre cuota/membresía, rotación anual, un estante por persona, masa crítica, planilla y archivo de miedos, formalización de roles.*

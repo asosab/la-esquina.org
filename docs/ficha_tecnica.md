@@ -1,8 +1,8 @@
-# Galería Íntima: Resumen ejecutivo
+# La Esquina: Resumen ejecutivo
 
 ## Qué es
 
-Galería Íntima es una biblioteca comunitaria en el centro de Santa Cruz de la Sierra donde individuos alquilan estantes para compartir sus libros. Cada dueño de estante cuenta además con cierto margen de libertad para sumar objetos personales, más allá de los libros. Sobre esta base bibliotecaria, el espacio se abre también como centro de arte, con talleres, performances y exposiciones.
+La Esquina es una biblioteca comunitaria en el centro de Santa Cruz de la Sierra donde individuos alquilan estantes para compartir sus libros. Cada dueño de estante cuenta además con cierto margen de libertad para sumar objetos personales, más allá de los libros. Sobre esta base bibliotecaria, el espacio se abre también como centro de arte, con talleres, performances y exposiciones.
 
 Se inspira en dos modelos con trayectoria: Minna no Toshokan Sankaku (Japón) y Casual Poet Library (Singapur), donde una comunidad de dueños de estante sostiene el espacio desde adentro, sin depender de subsidios.
 
@@ -18,7 +18,7 @@ Se inspira en dos modelos con trayectoria: Minna no Toshokan Sankaku (Japón) y 
 
 ### Para voluntarios
 
-- Donan su tiempo para atender a quienes visitan la galería y dar mantenimiento al espacio.
+- Donan su tiempo para atender a quienes visitan La Esquina y dar mantenimiento al espacio.
 - A cambio, tienen la suscripción de lector sin costo, con derecho a llevarse libros a casa igual que un dueño de estante.
 - El coordinador se encarga de organizar los turnos y de dar el entrenamiento inicial.
 
@@ -33,7 +33,7 @@ Se inspira en dos modelos con trayectoria: Minna no Toshokan Sankaku (Japón) y 
 
 ## Estante de los Miedos
 
-Uno de los 150 estantes está dedicado a recibir miedos. Quien desea dejar uno completa una planilla breve (fecha, nombre opcional, descripción opcional del miedo, frase de compromiso) y se lleva un talón como constancia; el original se archiva en gavetas cerradas, ordenadas por fecha de ingreso, con acceso restringido al coordinador y a voluntarios entrenados. Dejar un miedo no tiene costo. Es uno de los espacios fijos que Alejandro Sosa, creador de Galería Íntima, implementa dentro del proyecto.
+Uno de los 150 estantes está dedicado a recibir miedos. Quien desea dejar uno completa una planilla breve (fecha, nombre opcional, descripción opcional del miedo, frase de compromiso) y se lleva un talón como constancia; el original se archiva en gavetas cerradas, ordenadas por fecha de ingreso, con acceso restringido al coordinador y a voluntarios entrenados. Dejar un miedo no tiene costo. Es uno de los espacios fijos que Alejandro Sosa, creador de La Esquina, implementa dentro del proyecto.
 
 ## El local
 
@@ -61,7 +61,7 @@ Con los 148 estantes cubiertos, el ingreso del año 1 alcanza para cubrir a la v
 ## Estructura legal y equipo
 
 - **Figura legal:** Asociación Civil sin fines de lucro, con personería jurídica de alcance departamental ante el Gobierno Autónomo Departamental de Santa Cruz.
-- **Alejandro Sosa:** creador de Galería Íntima y coordinador del espacio (sueldo USD 370/mes por trabajos administrativos, organizacionales, entrenamientos, community management y capa digital). Implementa los espacios fijos del proyecto, como el Estante de los Miedos, y se encarga de conectar con aliados y con los primeros dueños de estante. El diseño arquitectónico del local se resuelve por subcontratación (sin nombre y apellido asociado).
+- **Alejandro Sosa:** creador de La Esquina y coordinador del espacio (sueldo USD 370/mes por trabajos administrativos, organizacionales, entrenamientos, community management y capa digital). Implementa los espacios fijos del proyecto, como el Estante de los Miedos, y se encarga de conectar con aliados y con los primeros dueños de estante. El diseño arquitectónico del local se resuelve por subcontratación (sin nombre y apellido asociado).
 
 ## Próximo hito
 
@@ -69,4 +69,4 @@ Cerrar la preventa del 100 % de los 148 estantes disponibles, cada uno con su pa
 
 ---
 
-*Resumen basado en las fuentes canónicas actualizadas de galeriaintima.org: [Galeria_Intima.md](https://galeriaintima.org/docs/Galeria_Intima), [galeria_intima_modelo.xlsx](https://galeriaintima.org/docs/galeria_intima_modelo.xlsx) y [predecesores](https://galeriaintima.org/docs/predecesores).*
+*Resumen basado en las fuentes canónicas actualizadas de la-esquina.org: [La_Esquina.md](https://la-esquina.org/docs/La_Esquina), [la_esquina_modelo.xlsx](https://la-esquina.org/docs/la_esquina_modelo.xlsx) y [predecesores](https://la-esquina.org/docs/predecesores).*

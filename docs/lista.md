@@ -1,7 +1,7 @@
-# Lista de personas a contactar — Galería Íntima
+# Lista de personas a contactar — La Esquina
 
 Documento de trabajo para la convocatoria personal (sección 14 del documento maestro).  
-Extraída y ampliada a partir de `Galeria_Intima.md`, considerando el perfil del copropietario de estante (`perfil_copropietario.md`).
+Extraída y ampliada a partir de `La_Esquina.md`, considerando el perfil del copropietario de estante (`perfil_copropietario.md`).
 
 **Criterios de invitación:** siempre a nombre y apellido (presencia personal). Se buscan personas con capacidad económica holgada para la cuota, vínculo estable con Santa Cruz, afinidad con libros/cultura, voluntad de autorrepresentación y capital social para generar boca a boca.
 

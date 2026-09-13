@@ -1,5 +1,5 @@
 /**
- * Galería Íntima — lista de copropietarios de estante
+ * La Esquina — lista de copropietarios de estante
  *
  * Orden = índice del estante en el tablero (0-based).
  * - Cadena con nombre → estante ocupado (se pinta y muestra tooltip al hover)
@@ -16,9 +16,10 @@
 const COPROPIETARIOS = [
   "Reservado para donación",
   "Estante de los Miedos",
-  //"Alejandro Sosa",
-  // "Siria Useche",
-  // "Fundación X",
+  //"Alejandro Sosa"
+  // Añadir aquí los siguientes nombres en el mismo orden del tablero.
+  // Ejemplo:
+  // "Nombre Apellido",
 ];
 
 // Exporta para uso en módulos si más adelante se convierte en ES module.

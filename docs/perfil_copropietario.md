@@ -1,4 +1,4 @@
-# Perfil del Copropietario de Estante — Galería Íntima
+# Perfil del Copropietario de Estante — La Esquina
 
 Documento de análisis conceptual para la convocatoria y selección de dueños de estante.
 Basado en el documento maestro, la ficha técnica, los modelos de origen y el cruce con la idiosincrasia boliviana y cruceña.
@@ -7,7 +7,7 @@ Basado en el documento maestro, la ficha técnica, los modelos de origen y el cr
 
 ## 1. Por qué los copropietarios son el corazón del proyecto
 
-Los copropietarios de estante son la garantía de funcionamiento de Galería Íntima. Sin ellos no hay local, no hay superávit para eventos y no hay la densidad de miradas que hace que el espacio sea “150 ventanas a cabezas distintas”.
+Los copropietarios de estante son la garantía de funcionamiento de La Esquina. Sin ellos no hay local, no hay superávit para eventos y no hay la densidad de miradas que hace que el espacio sea “150 ventanas a cabezas distintas”.
 
 El modelo invierte el orden habitual: primero se construye la comunidad de 148 dueños que pagan la cuota anual adelantada (USD 108), después se firma el contrato del local, se encarga la carpintería y se inaugura. Cada estante lleva nombre y apellido (o el de la institución a través de su responsable). El estante es una ventana pública a la cabeza de alguien: libros, objetos, notas manuscritas y la forma particular de ver el mundo de quien lo cura.
 
@@ -136,7 +136,7 @@ Estas dos personas cubren el eje artístico-gestor y el eje profesional-empresar
 - Voluntad de mostrarse con nombre y apellido.
 - Afinidad con un espacio que se sostiene desde adentro.
 
-Juntas ilustran por qué los copropietarios de estante pueden convertirse, de verdad, en el corazón y la garantía de Galería Íntima en el contexto cruceño.
+Juntas ilustran por qué los copropietarios de estante pueden convertirse, de verdad, en el corazón y la garantía de La Esquina en el contexto cruceño.
 
 El documento debe usarse como referencia para:
 - Curar la lista de invitaciones personales (sección 14 del documento maestro).
@@ -145,5 +145,5 @@ El documento debe usarse como referencia para:
 
 ---
 
-*Generado a partir del análisis de Galeria_Intima.md, ficha_tecnica.md, predecesores.md y el cruce con la idiosincrasia boliviana y cruceña.*  
+*Generado a partir del análisis de La_Esquina.md, ficha_tecnica.md, predecesores.md y el cruce con la idiosincrasia boliviana y cruceña.*  
 *Septiembre 2026.*
