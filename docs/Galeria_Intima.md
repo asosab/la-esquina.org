@@ -266,8 +266,8 @@ Hay un punto importante que corrige el cálculo anterior: como el pago de USD 10
 | Concepto | Monto (USD) |
 |---|---|
 | Costos operativos de los primeros 12 meses (USD 753,63 × 12, incluye el año completo de alquiler, electricidad, internet, agua embotellada, etc.) | 9.043,50 |
-| Inversión inicial / CAPEX (depósito, comisión, dispensador de agua, carpintería, mobiliario, equipamiento; ver detalle abajo) | 7.260,00 |
-| **Necesidad total de caja para el año 1** | **16.303,50** |
+| Inversión inicial / CAPEX (depósito, comisión, dispensador de agua, carpintería, mobiliario, diseño arquitectónico, equipamiento; ver detalle abajo) | 6.935,00 |
+| **Necesidad total de caja para el año 1** | **15.978,50** |
 
 **Ingreso del año 1, peor escenario (148 estantes pagando, sin Miedos ni suscripciones):**
 
@@ -276,19 +276,11 @@ Hay un punto importante que corrige el cálculo anterior: como el pago de USD 10
 | Cuotas de estante (148 × USD 108) | 15.984,00 |
 | **Ingreso total del año 1** | **15.984,00** |
 
-**Superávit / Déficit del año 1:** 15.984,00 − 16.303,50 = **USD −319,50**
+**Superávit del año 1:** 15.984,00 − 15.978,50 = **USD +5,50**
 
-**Subir la cuota de USD 7 a USD 9 al mes cierra casi toda la brecha del año 1.** Con la cuota anterior, el hueco era de USD 3.586; con USD 9 al mes, se reduce a solo **USD 319,50**, un monto mucho más manejable. La cantidad de estantes pagando que haría falta para cerrar esta brecha por completo, solo con cuotas, es de **151**; el local tiene 148 estantes disponibles para alquiler, así que sigue faltando un margen pequeño, pero ya no es una brecha estructural grande como antes.
+Con el CAPEX actualizado (que incorpora el diseño y la supervisión de la instalación arquitectónica por USD 530 y ajusta el resto de ítems de equipamiento), el año 1 se **autofinancia** solo con las cuotas de los 148 estantes, incluso en el peor escenario (sin apoyos al Estante de los Miedos ni suscripciones de lectores). El superávit es mínimo (+USD 5,50), pero cierra el hueco que antes existía. A partir del año 2, sin un CAPEX grande nuevo, el mismo ingreso de cuotas ya alcanza cómodamente para cubrir la operación con un superávit amplio (ver 7.2 y la Proyección 24 meses del modelo financiero adjunto), salvo el efecto de la inflación local (ver 7.9).
 
-**Cómo se puede cerrar el remanente de ≈ USD 320:**
-- Un aporte de capital propio o de un aliado (por ejemplo, apoyo en especie o económico de la alianza con el AECID) para cubrir la diferencia una sola vez.
-- Escalonar una parte pequeña del CAPEX en el tiempo (por ejemplo, los acabados o el imprevisto) con el superávit operativo de los primeros meses.
-- Sumar, una vez confirmados con datos reales, los apoyos al Estante de los Miedos y/o la suscripción de lectores (ver 7.5 y 7.8): entre ambos podrían aportar unos USD 480 al año, más que suficiente para cerrar este remanente si se confirman.
-- Aceptar el pequeño déficit y cubrirlo con el superávit acumulado de los primeros dos meses de operación, ya que a partir del año 2 el margen es amplio (ver más abajo).
-
-Vale aclarar que este hueco es específico del año 1 (el momento en que hay que pagar la inversión inicial *y* empezar a operar al mismo tiempo). A partir del año 2, sin un CAPEX grande nuevo, el mismo ingreso de cuotas ya alcanza cómodamente para cubrir la operación con un superávit amplio (ver 7.2 y la Proyección 24 meses del modelo financiero adjunto), salvo el efecto de la inflación local (ver 7.9).
-
-**Estimación de inversión inicial (CAPEX)** (a afinar con la subcontratación del diseño arquitectónico y el carpintero):
+**Estimación de inversión inicial (CAPEX)** (alineada con `galeria_intima_modelo.xlsx`):
 
 | Concepto                              | Estimación (USD) |
 |---------------------------------------|-------------------|
@@ -296,13 +288,14 @@ Vale aclarar que este hueco es específico del año 1 (el momento en que hay que
 | Comisión de inmobiliaria (1 mes de alquiler) | 220 |
 | Dispensador de agua (Villa Santa)     | 200               |
 | Carpintería y estantes (150 módulos, 35 × 50 × 35 cm) | 2.920 |
-| Mesas y sillas plegables              | 600               |
-| Iluminación                           | 700               |
-| Aire acondicionado                    | 900               |
-| Acabados, pintura y señalética        | 400               |
-| Desarrollo del sitio web + tour virtual + sistemas de registro | 800 |
+| Mesas y sillas plegables              | 500               |
+| Iluminación                           | 500               |
+| Aire acondicionado                    | 400               |
+| Acabados, pintura y señalética        | 345               |
+| Desarrollo del sitio web + sistemas de registro | 800 |
+| Diseño y supervisión de instalación arquitectónica (subcontratación) | 530 |
 | Imprevistos y otros                   | 300               |
-| **Total estimado**                    | **≈ 7.260**       |
+| **Total estimado**                    | **6.935**         |
 | Dominio galeriaintima.org (primer año, ya pagado, no suma al total) | 8,18 |
 
 *Nota sobre el agua:* el dispensador es una compra única (CAPEX). El costo recurrente del botellón semanal (USD 1,5/semana) se prorratea como gasto mensual dentro de los costos operativos (ver tabla de la sección 7), no aquí.
@@ -663,4 +656,4 @@ La formalización como Asociación Civil se realiza apenas exista un núcleo est
 
 *Documento base para el desarrollo conceptual de Galería Íntima en el centro de Santa Cruz de la Sierra.*
 *Inspirado en modelos de bibliotecas comunitarias de estantes compartidos (ver punto 2, "Origen del modelo").*
-*Actualizado con: 150 estantes físicos (35 × 50 × 35 cm cada uno), de los cuales 148 se alquilan y generan cuota y 2 se reservan para intercambio o donación; cuota única USD 9/mes con pago anual adelantado (USD 108); carpintería estimada en USD 2.920 según cotización real de dos muebles libreros de 60 estantes por USD 2.336 (triangulada a 150 estantes físicos); dispensador de agua Villa Santa (USD 200, compra única) y botellón semanal (USD 1,5/semana) incorporados a la inversión inicial y a los costos fijos mensuales; sueldo del coordinador Alejandro Sosa en USD 370 (trabajos administrativos, organizacionales, entrenamientos, etc.); diseño arquitectónico del local por subcontratación (sin nombre y apellido); cálculo de caja del año 1 en el peor escenario con una brecha de ≈ USD 320; sección de riesgo cambiario e inflación en Bolivia, con un supuesto de ajuste anual del 10% para costos en bolivianos; sistema de préstamo de libros con suscripción anual de lector (USD 10/año, monto provisional, excluido de los cálculos financieros) y plazo máximo de dos semanas; dominio galeriaintima.org (USD 8,18 primer año pagado; renovación USD 15/año); decisiones sobre cuota/membresía, rotación anual, un estante por persona, masa crítica, planilla y archivo de miedos, formalización de roles.*
+*Actualizado con: 150 estantes físicos (35 × 50 × 35 cm cada uno), de los cuales 148 se alquilan y generan cuota y 2 se reservan para intercambio o donación; cuota única USD 9/mes con pago anual adelantado (USD 108); CAPEX alineado con galeria_intima_modelo.xlsx (total USD 6.935, incluye diseño y supervisión de instalación arquitectónica por USD 530 como subcontratación, sin nombre y apellido); carpintería USD 2.920; sueldo del coordinador Alejandro Sosa USD 370; año 1 se autofinancia en el peor escenario (superávit ≈ USD +5,50); sección de riesgo cambiario e inflación en Bolivia; sistema de préstamo de libros con suscripción anual de lector (USD 10/año, monto provisional); dominio galeriaintima.org; decisiones sobre cuota/membresía, rotación anual, un estante por persona, masa crítica, planilla y archivo de miedos, formalización de roles.*

@@ -51,12 +51,12 @@ Uno de los 150 estantes está dedicado a recibir miedos. Quien desea dejar uno c
 | Costos fijos mensuales (servicios + margen de variabilidad + sueldo del coordinador) | USD 753,63 |
 | Ingreso mensual a ocupación plena | USD 1.332 |
 | Superávit mensual a ocupación plena | ≈ USD 578,38 |
-| Inversión inicial (CAPEX: depósito, comisión, carpintería, mobiliario, sitio web, imprevistos) | ≈ USD 7.260 |
-| Necesidad total de caja, año 1 (CAPEX + 12 meses de operación) | USD 16.303,50 |
+| Inversión inicial (CAPEX: depósito, comisión, carpintería, mobiliario, diseño arquitectónico, sitio web, imprevistos) | USD 6.935 |
+| Necesidad total de caja, año 1 (CAPEX + 12 meses de operación) | USD 15.978,50 |
 | Ingreso del año 1 (148 estantes x USD 108) | USD 15.984,00 |
-| Superávit / Déficit del año 1 | ≈ USD −319,50 |
+| Superávit del año 1 | ≈ USD +5,50 |
 
-Con los 148 estantes cubiertos, el ingreso del año 1 deja una brecha pequeña de ≈USD 320 en el peor escenario (sin Miedos ni suscripciones). Esa diferencia se puede cerrar con un aporte puntual, con el superávit de los primeros meses o con los ingresos complementarios una vez confirmados.
+Con los 148 estantes cubiertos, el ingreso del año 1 alcanza para cubrir a la vez la inversión inicial y los 12 meses de operación en el peor escenario (sin Miedos ni suscripciones). El año 1 se autofinancia solo con las cuotas.
 
 ## Estructura legal y equipo
 
