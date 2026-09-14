@@ -279,8 +279,14 @@
       border-color: var(--stamp);
       cursor: help;
     }
+    .cell.reserved{
+      background: transparent;
+      border-color: var(--stamp);
+      border-style: dashed;
+      cursor: help;
+    }
     /* Tooltip nativo mejorado vía title; refuerzo visual al hover */
-    .cell.filled:hover{
+    .cell.filled:hover, .cell.reserved:hover{
       filter: brightness(1.12);
       transform: scale(1.08);
       z-index: 2;
@@ -288,7 +294,7 @@
     @keyframes rise{ to{ opacity: 1; transform: translateY(0); } }
     @media (prefers-reduced-motion: reduce){
       .cell{ animation: none; opacity: 1; transform: none; }
-      .cell.filled:hover{ transform: none; }
+      .cell.filled:hover, .cell.reserved:hover{ transform: none; }
     }
     .grid-caption{
       margin-top: 1rem;
@@ -577,7 +583,7 @@
       <a href="#cuota">La cuota</a>
       <a href="#funciona">Cómo funciona</a>
       <a href="#idea">La idea</a>
-      <a href="#sumate">Reservar</a>
+      <a href="#sumate">Registrarme</a>
     </nav>
   </div>
 </header>
@@ -598,9 +604,9 @@ ni consumir para estar. La curaduría de cada copropietario
 traza un mapa de nuestra cultura. Queremos ver tu nombre
 en los estantes.
         </p>
-        <p class="hero-note">La comunidad se arma ahora. El local se firma cuando los 148 estantes tengan dueño.</p>
+        <p class="hero-note">Registrate gratis hoy. Pagás solo si llegamos a ser 148: recién ahí se firma el local.</p>
         <div class="cta-row">
-          <a class="btn" href="#sumate">Quiero mi estante</a>
+          <a class="btn" href="#sumate">Quiero registrarme</a>
           <a class="link-quiet" href="#tablero">Ver el tablero</a>
         </div>
       </div>
@@ -611,15 +617,16 @@ en los estantes.
   <section class="on-paper-deep" id="tablero">
     <div class="wrap">
       <span class="eyebrow-line">El tablero</span>
-      <h2>Firmamos el contrato del local cuando los 148 estantes tengan dueño.</h2>
-      <p class="lede">La Esquina tendrá 150 estantes físicos. 148 se completan con quienes pagan su cuota anual. Uno es el Estante de los Miedos. Otro se reserva para intercambio o donación. Primero se completa la comunidad; después se construye el espacio.</p>
+      <h2>Nos registramos primero. Cobramos y firmamos el local cuando ya somos 148.</h2>
+      <p class="lede">La Esquina tendrá 150 estantes físicos. 148 se completan con quienes se registran y, al llegar a esa cifra, pagan su cuota anual. Uno es el Estante de los Miedos. Otro se reserva para intercambio o donación. Primero se completa la comunidad; después se cobra; después se construye el espacio.</p>
       <p class="board-status" id="board-status"></p>
       <div class="grid-shelves" id="shelf-grid" aria-hidden="true"></div>
       <p class="grid-caption" id="grid-caption"></p>
+      <p class="grid-caption" id="waitlist-caption"></p>
 
       <div class="cta-band">
-        <p>Cada estante que se reserva acerca el día de apertura. El tuyo puede ser el siguiente.</p>
-        <a class="btn btn-on-paper" href="#sumate">Quiero formar parte</a>
+        <p>Cada registro acerca el día en que se completa la comunidad. El tuyo puede ser el siguiente.</p>
+        <a class="btn btn-on-paper" href="#sumate">Quiero registrarme</a>
       </div>
     </div>
   </section>
@@ -628,14 +635,14 @@ en los estantes.
   <section class="on-paper" id="cuota">
     <div class="wrap">
       <span class="eyebrow-line">La cuota</span>
-      <h2>Una sola cuota, un solo pago.</h2>
-      <p class="lede">Todos los dueños de estante pagan lo mismo. Nadie tiene un lugar mejor por pagar más.</p>
+      <h2>Una sola cuota, un solo pago, y recién si llegamos a 148.</h2>
+      <p class="lede">Todos los dueños de estante pagan lo mismo. Nadie tiene un lugar mejor por pagar más. Y nadie paga nada hasta que la comunidad esté completa.</p>
       <div class="price-grid">
         <div class="card price-card tilt-l">
           <span class="stamp-badge">estante</span>
           <h3>Dueño de estante</h3>
           <p class="price-amount">USD 9<span> / mes</span></p>
-          <p class="price-detail">Un solo pago adelantado de 12 meses: <strong>USD 108</strong>. Incluye tu estante exclusivo, tu lugar en la comunidad de copropietarios y la suscripción de lector sin costo aparte.</p>
+          <p class="price-detail">Te registrás gratis hoy. Si al 28 de febrero de 2027 somos 148 registrados, te invitamos a pagar un solo monto adelantado de 12 meses: <strong>USD 108</strong>. Incluye tu estante exclusivo, tu lugar en la comunidad de copropietarios y la suscripción de lector sin costo aparte.</p>
         </div>
         <div class="card price-card tilt-r">
           <span class="stamp-badge">suscriptor</span>
@@ -645,18 +652,34 @@ en los estantes.
         </div>
       </div>
 
-      <p class="price-value">Con tu cuota recibís algo concreto: un estante, una suscripción y un lugar en la comunidad. Detrás de ese pago también hay un gracias —de nuestra parte y de toda la ciudad que va a disfrutar el espacio—: cada estante hace posible que este lugar exista.</p>
+      <p class="price-value">Con tu cuota recibís algo concreto: un estante, una suscripción y un lugar en la comunidad. Detrás de ese pago también hay un gracias, de nuestra parte y de toda la ciudad que va a disfrutar el espacio: cada estante hace posible que este lugar exista.</p>
       <p class="price-note">Tu cuota cubre alquiler, servicios y la coordinación diaria. Todo el superávit va a la cuenta del espacio (eventos, charlas, mejoras) con rendición abierta a los copropietarios.</p>
+
+      <details class="price-more">
+        <summary>¿Cuándo se cobra y qué pasa si no llegamos a 148?</summary>
+        <p>Registrarte no cuesta nada. El cobro se activa solo cuando se completan los 148 registros, y desde ese momento tenés una semana para pagar y confirmar tu estante. Si no pagás en esa semana, tu lugar pasa a la primera persona en la lista de espera.</p>
+        <p>Si al 28 de febrero de 2027 todavía no somos 148 registrados, no se cobra nada a nadie: la convocatoria se declara no lograda en este plazo y te avisamos con transparencia.</p>
+      </details>
+
+      <details class="price-more">
+        <summary>¿Quién recibe mi pago?</summary>
+        <p>Mientras se termina de constituir la Asociación Civil La Esquina, los pagos los recibe Alejandro Sosa, promotor del proyecto. Cada pago recibido se comparte en el grupo de la comunidad de copropietarios como recibo visible para todos, y tu nombre aparece junto a tu número de estante en el tablero de esta página, primero como registrado y después como confirmado. En cuanto se recaudan los 148 pagos, se invita a esos 148 a integrar formalmente la Asociación Civil, que pasa a administrar los fondos.</p>
+      </details>
 
       <details class="price-more">
         <summary>Detalles de pago y renovación</summary>
         <p>El precio se fija en dólares y se cobra en bolivianos al tipo de cambio del día. Así el proyecto sostiene su valor real frente a la inflación local.</p>
-        <p>Tu cuota reserva el estante a nombre de la persona o institución por 12 meses. Para renovarlo avisá con una semana de anticipación: hay lista de espera de gente que también quiere un lugar. Se permiten múltiples estantes si cada uno tiene sentido propio y se mantiene con contenido.</p>
+        <p>Tu cuota reserva el estante a nombre de la persona o institución por 12 meses. Para renovarlo avisá con una semana de anticipación: hay lista de espera de gente que también quiere un lugar. Un estante por persona durante esta etapa fundadora; estantes adicionales podrán habilitarse más adelante si hay disponibilidad.</p>
+      </details>
+
+      <details class="price-more">
+        <summary>¿Qué pasa si un libro prestado se pierde o se daña?</summary>
+        <p>La Esquina funciona sobre confianza mutua, igual que sus modelos de origen en Japón y Singapur: se acepta el desgaste natural de una biblioteca de préstamo. No hay multas por atraso ni obligación de reponer un libro perdido; se anima a devolver a tiempo y a cuidar lo que se lleva, porque el espacio se sostiene entre todos.</p>
       </details>
 
       <div class="cta-band">
-        <p>USD 108 al año. Un estante con tu nombre en el centro de Santa Cruz.</p>
-        <a class="btn btn-on-paper" href="#sumate">Reservar mi estante</a>
+        <p>Registro gratis hoy. USD 108 al año recién si llegamos a 148.</p>
+        <a class="btn btn-on-paper" href="#sumate">Quiero registrarme</a>
       </div>
     </div>
   </section>
@@ -665,31 +688,38 @@ en los estantes.
   <section class="on-ink-soft" id="funciona">
     <div class="wrap">
       <span class="eyebrow-line">Cómo funciona</span>
-      <h2>Cuatro pasos, en este orden.</h2>
+      <h2>Cinco pasos, en este orden.</h2>
       <div class="steps">
         <div class="step">
           <span class="step-num">01</span>
           <div>
-            <h3>Obtenés tu estante</h3>
-            <p>Un módulo de 35 × 50 × 35 cm. La arquitecta define su lugar dentro del recorrido. Ahí van tus libros (al menos un par), objetos y notas; los cambiás cuando quieras. Podés tener más de un estante si cada uno tiene sentido propio y se mantiene con contenido.</p>
+            <h3>Te registrás, sin costo</h3>
+            <p>Dejás tu nombre y tu contacto para reservar tu lugar entre los 148 fundadores. El registro no te compromete a pagar nada todavía.</p>
           </div>
         </div>
         <div class="step">
           <span class="step-num">02</span>
+          <div>
+            <h3>Si llegamos a 148, pagás</h3>
+            <p>El 28 de febrero de 2027 se cierra el registro. Si para esa fecha somos 148, te invitamos a pagar tu cuota anual (USD 108) y confirmar tu estante, con una semana de plazo para hacerlo.</p>
+          </div>
+        </div>
+        <div class="step">
+          <span class="step-num">03</span>
+          <div>
+            <h3>Obtenés tu estante</h3>
+            <p>Un módulo de 35 × 50 × 35 cm. La arquitecta define su lugar dentro del recorrido. Ahí van tus libros (al menos un par), objetos y notas; los cambiás cuando quieras.</p>
+          </div>
+        </div>
+        <div class="step">
+          <span class="step-num">04</span>
           <div>
             <h3>Ponés el nombre</h3>
             <p>Cada estante lleva un nombre visible: el de una persona o el de una institución pública o privada. El Estante de los Miedos es la única excepción.</p>
           </div>
         </div>
         <div class="step">
-          <span class="step-num">03</span>
-          <div>
-            <h3>Formás parte antes de que exista</h3>
-            <p>Tu cuota ayuda a pagar el local por adelantado. La comunidad llega antes que las llaves.</p>
-          </div>
-        </div>
-        <div class="step">
-          <span class="step-num">04</span>
+          <span class="step-num">05</span>
           <div>
             <h3>Participás cuando querés</h3>
             <p>La coordinadora y los turnos de voluntarios abren, cuidan y cierran el espacio. Vos podés sumarte cuando quieras, sin obligación. Como voluntario, la suscripción para llevarte libros a casa no tiene costo.</p>
@@ -706,7 +736,7 @@ en los estantes.
       <h2>Cada estante es un autorretrato.</h2>
       <div class="cols-2">
         <div class="body-copy lede">
-          <p>Tu estante mide 35 × 50 × 35 cm. Tiene que haber al menos un par de libros: son el corazón. Junto a ellos va lo que quieras sumar —un objeto que te acompaña hace años, una nota escrita a mano, una foto—. Lo cambiás cuando quieras. Cada estante tiene su propia ficha: quien se sienta a leer puede dejar una marca de que estuvo ahí.</p>
+          <p>Tu estante mide 35 × 50 × 35 cm. Tiene que haber al menos un par de libros: son el corazón. Junto a ellos va lo que quieras sumar (un objeto que te acompaña hace años, una nota escrita a mano, una foto). Lo cambiás cuando quieras. Cada estante tiene su propia ficha: quien se sienta a leer puede dejar una marca de que estuvo ahí.</p>
           <p>La Esquina es una biblioteca comunitaria autogestionada. Los libros no los eligió un algoritmo ni una sola curadora: los eligió cada dueño de estante. Esa suma de criterios personales arma una colección a la que toda la ciudad accede sin costo. Cualquiera puede entrar, sentarse y leer gratis. Quien quiere llevarse libros a casa se hace suscriptor anual; los dueños de estante la tienen incluida.</p>
           <p>Es un lugar quieto en medio de una ciudad ruidosa: un oasis sostenido por la propia comunidad. Y es también centro de arte: exposiciones, talleres, encuentros y performances permanentes como el Estante de los Miedos.</p>
         </div>
@@ -767,17 +797,17 @@ en los estantes.
   <section class="on-ink-soft" id="sumate">
     <div class="wrap">
       <span class="eyebrow-line">Sumate</span>
-      <h2>Reservá tu estante.</h2>
+      <h2>Registrate, sin costo.</h2>
       <div class="form-wrap">
         <div class="form-side">
           <p>Si llegaste hasta acá, este espacio es para vos. Elegí el nivel de compromiso que tenga sentido hoy y sumate desde ahí.</p>
-          <p>Como dueño de estante obtenés un lugar físico y simbólico en el centro de la ciudad, con tu nombre (o el de tu institución) y tu mirada presentes. Sos copropietario: entre los primeros en enterarte de cada actividad y con prioridad en charlas y talleres (aforo de 40 personas).</p>
-          <p>Si todavía no es el momento del estante, podés donar tu tiempo como voluntario (la suscripción va incluida), sumarte como suscriptor, o simplemente pedir que te avisemos cuando el local abra. Cualquiera de estas opciones suma: la comunidad se construye antes de que existan las llaves.</p>
+          <p>Registrarte para un estante no cuesta nada: dejás tu nombre y tu contacto, y reservás tu lugar entre los 148 fundadores. Recién si al 28 de febrero de 2027 somos 148 registrados te invitamos a pagar tu cuota (USD 108/año) y confirmar tu estante, con tu nombre visible en el centro de la ciudad. Ahí pasás a ser copropietario e integrás la Asociación Civil que llevará adelante La Esquina.</p>
+          <p>Si todavía no es el momento del estante, podés donar tu tiempo como voluntario (la suscripción va incluida), sumarte como suscriptor, o simplemente pedir que te avisemos cuando el local abra. Cualquiera de estas opciones suma: la comunidad se construye antes de que exista el cobro.</p>
           <p class="form-urgency" id="form-urgency"></p>
         </div>
         <form id="shelf-form">
           <div class="form-value-box">
-            <strong>Dueño de estante (USD 108/año):</strong> estante exclusivo 12 meses, nombre visible, suscripción de lector incluida, prioridad en eventos y derecho a renovar.
+            <strong>Dueño de estante (registro gratis, USD 108/año si llegamos a 148):</strong> estante exclusivo 12 meses, nombre visible, suscripción de lector incluida, prioridad en eventos y derecho a renovar. No pagás nada al registrarte.
           </div>
           <div>
             <label for="nombre">Nombre (persona o institución)</label>
@@ -790,7 +820,7 @@ en los estantes.
           <div>
             <label>Cómo querés sumarte</label>
             <div class="plan-options">
-              <label class="plan-option"><input type="radio" name="plan" value="Dueño de estante, USD 9/mes (pago único anual, USD 108)" checked> Dueño de estante · USD 108/año</label>
+              <label class="plan-option"><input type="radio" name="plan" value="Dueño de estante, registro gratis; pago único anual de USD 108 solo si llegamos a 148 registrados" checked> Dueño de estante · registro gratis, USD 108/año si llegamos a 148</label>
               <label class="plan-option"><input type="radio" name="plan" value="Voluntario, dono mi tiempo para atender visitantes y mantenimiento"> Voluntario · dono mi tiempo</label>
               <label class="plan-option"><input type="radio" name="plan" value="Suscriptor, USD 10/año"> Suscriptor · USD 10/año</label>
               <label class="plan-option"><input type="radio" name="plan" value="Deseo estar informado, sin costo"> Deseo estar informado</label>
@@ -800,8 +830,8 @@ en los estantes.
             <label for="mensaje">Contanos algo (opcional)</label>
             <textarea id="mensaje" name="mensaje" placeholder="Qué pensás poner en tu estante, qué te gustaría leer, o cualquier pregunta..."></textarea>
           </div>
-          <button type="submit" class="btn">Reservar mi estante</button>
-          <p class="form-hint">Al enviar se abre WhatsApp con estos datos ya escritos, listos para mandarnos.</p>
+          <button type="submit" class="btn">Quiero registrarme</button>
+          <p class="form-hint">Al enviar se abre WhatsApp con estos datos ya escritos, listos para mandarnos. Registrarte no tiene costo: si sos de los 148, te vamos a escribir para que confirmes tu estante pagando tu cuota.</p>
         </form>
       </div>
     </div>
@@ -839,49 +869,111 @@ en los estantes.
 
   // ---- Board ----
   // Fuente de verdad: COPROPIETARIOS (copropietarios.js).
-  // Cada entrada con nombre marca una celda ocupada y muestra el nombre al hover.
-  // Paso intermedio antes de conectar con API + base de datos.
+  //
+  // Formato de cada entrada: { nombre: "Nombre Apellido", estado: "registrado" | "confirmado" }
+  // (por compatibilidad, una entrada que sea solo un string se trata como
+  // dueño ya "confirmado", que era el comportamiento del archivo viejo).
+  //
+  // El ORDEN del array es el orden de llegada. Los primeros 148 registros
+  // ocupan los puestos de dueño de estante; todo lo que venga después del
+  // puesto 148 es lista de espera automática. No hace falta marcar a nadie
+  // como "en lista de espera": alcanza con que el archivo tenga más de 148
+  // entradas para que las de más allá del puesto 148 cuenten como tal.
+  //
+  // Si alguien de los 148 no paga dentro de la semana desde que se lo invita
+  // a confirmar, se lo quita (o se cambia su estado) en este archivo y el
+  // siguiente de la lista pasa a ocupar el puesto: es una edición manual del
+  // dato, no algo que calcule el sitio solo.
   const GOAL_SHELVES = 150;
   const PAYING_GOAL = 148;
 
-  // Asegura array y normaliza: solo cadenas no vacías cuentan como ocupados.
-  const owners = (typeof COPROPIETARIOS !== 'undefined' && Array.isArray(COPROPIETARIOS))
+  // Los dos estantes especiales no forman parte del registro: son fijos.
+  const ESPECIALES = [
+    'El Estante de los Miedos',
+    'Estante de intercambio y donación'
+  ];
+
+  function normalizarRegistro(raw) {
+    if (typeof raw === 'string') {
+      return { nombre: raw.trim(), estado: 'confirmado' };
+    }
+    if (raw && typeof raw === 'object') {
+      const estado = raw.estado === 'registrado' ? 'registrado' : 'confirmado';
+      return { nombre: String(raw.nombre || '').trim(), estado: estado };
+    }
+    return { nombre: '', estado: 'confirmado' };
+  }
+
+  const registrosRaw = (typeof COPROPIETARIOS !== 'undefined' && Array.isArray(COPROPIETARIOS))
     ? COPROPIETARIOS
     : [];
-  const CONFIRMED_SHELVES = owners.filter(n => typeof n === 'string' && n.trim().length > 0).length;
+
+  const registros = registrosRaw.map(normalizarRegistro).filter(r => r.nombre.length > 0);
+
+  // Los primeros 148 (en orden de llegada) ocupan los puestos de dueño.
+  const puestos148 = registros.slice(0, PAYING_GOAL);
+  // Todo lo que sobra después del puesto 148 es lista de espera.
+  const listaEspera = registros.slice(PAYING_GOAL);
+
+  const confirmados = puestos148.filter(r => r.estado === 'confirmado').length;
+  const registradosSinPagar = puestos148.length - confirmados;
+  const remainingPaying = Math.max(0, PAYING_GOAL - puestos148.length);
 
   const statusEl = document.getElementById('board-status');
   const captionEl = document.getElementById('grid-caption');
+  const waitlistEl = document.getElementById('waitlist-caption');
   const gridEl = document.getElementById('shelf-grid');
   const urgencyEl = document.getElementById('form-urgency');
 
-  const remainingPaying = Math.max(0, PAYING_GOAL - Math.max(0, CONFIRMED_SHELVES - 2));
-  statusEl.textContent = `${CONFIRMED_SHELVES} de ${GOAL_SHELVES} estantes confirmados. Faltan ${remainingPaying} dueños de estante para firmar el local.`;
-  captionEl.textContent = `150 casillas, una por cada estante. Dos ya están definidas: el Estante de los Miedos y el de intercambio/donación. Las otras 148 se completan con quienes se suman. Pasá el cursor sobre una casilla ocupada para ver el nombre.`;
-  if (urgencyEl) {
-    urgencyEl.textContent = remainingPaying > 0
-      ? `Quedan ${remainingPaying} estantes de cuota por cubrir antes de firmar el local.`
-      : `La comunidad de 148 dueños está completa.`;
+  statusEl.textContent = `${puestos148.length} de 148 personas registradas (${confirmados} ya confirmaron pagando su cuota, ${registradosSinPagar} registradas y en espera de que se active el cobro). Faltan ${remainingPaying} para completar la comunidad.`;
+
+  captionEl.textContent = `150 casillas, una por cada estante. Dos ya están definidas: el Estante de los Miedos y el de intercambio/donación. Las otras 148 se completan con quienes se registran. Casilla sólida: ya pagó. Casilla con borde punteado: registrada, todavía sin pagar. Pasá el cursor sobre una casilla ocupada para ver el nombre.`;
+
+  if (waitlistEl) {
+    waitlistEl.textContent = listaEspera.length > 0
+      ? `Además, ${listaEspera.length} persona(s) están en lista de espera: si alguien de los 148 no paga dentro de una semana de ser invitado, el siguiente de esta lista ocupa su puesto.`
+      : '';
   }
 
-  for (let i = 0; i < GOAL_SHELVES; i++) {
+  if (urgencyEl) {
+    urgencyEl.textContent = remainingPaying > 0
+      ? `Quedan ${remainingPaying} registros por sumar antes de activar el cobro y firmar el local.`
+      : `Ya somos 148 registrados. Se activó la ventana de pago de una semana para confirmar cada estante.`;
+  }
+
+  // Casillas especiales (siempre llenas, no dependen del registro)
+  ESPECIALES.forEach((nombre, i) => {
     const cell = document.createElement('div');
-    const name = (owners[i] && String(owners[i]).trim()) || '';
-    const isFilled = name.length > 0;
-    cell.className = 'cell' + (isFilled ? ' filled' : '');
+    cell.className = 'cell filled';
     cell.style.animationDelay = (i * 12) + 'ms';
-    if (isFilled) {
-      cell.title = name;                 // tooltip nativo al hover
-      cell.setAttribute('aria-label', name);
-      cell.dataset.owner = name;         // útil si más adelante se quiere tooltip custom
+    cell.title = nombre;
+    cell.setAttribute('aria-label', nombre);
+    cell.dataset.owner = nombre;
+    gridEl.appendChild(cell);
+  });
+
+  // Las 148 casillas de dueño de estante
+  for (let i = 0; i < PAYING_GOAL; i++) {
+    const cell = document.createElement('div');
+    const registro = puestos148[i];
+    cell.style.animationDelay = ((ESPECIALES.length + i) * 12) + 'ms';
+    if (registro) {
+      const esConfirmado = registro.estado === 'confirmado';
+      cell.className = 'cell ' + (esConfirmado ? 'filled' : 'reserved');
+      const etiqueta = registro.nombre + (esConfirmado ? '' : ' (registrado, todavía sin pagar)');
+      cell.title = etiqueta;
+      cell.setAttribute('aria-label', etiqueta);
+      cell.dataset.owner = registro.nombre;
+    } else {
+      cell.className = 'cell';
     }
     gridEl.appendChild(cell);
   }
 
   // ---- Form: actualizar texto de .form-value-box según plan seleccionado ----
   const planCopy = {
-    'Dueño de estante, USD 9/mes (pago único anual, USD 108)':
-      '<strong>Dueño de estante (USD 108/año):</strong> estante exclusivo 12 meses, nombre visible, suscripción de lector incluida, prioridad en eventos y derecho a renovar.',
+    'Dueño de estante, registro gratis; pago único anual de USD 108 solo si llegamos a 148 registrados':
+      '<strong>Dueño de estante (registro gratis, USD 108/año si llegamos a 148):</strong> estante exclusivo 12 meses, nombre visible, suscripción de lector incluida, prioridad en eventos y derecho a renovar. No pagás nada al registrarte.',
     'Voluntario, dono mi tiempo para atender visitantes y mantenimiento':
       '<strong>Voluntario:</strong> donás turnos para abrir, cuidar y cerrar el espacio. La suscripción de lector va incluida. Sin cuota de estante.',
     'Suscriptor, USD 10/año':
@@ -912,8 +1004,8 @@ en los estantes.
     const plan = document.querySelector('input[name="plan"]:checked').value;
     const mensaje = document.getElementById('mensaje').value.trim();
 
-    const body = `Quiero sumarme a La Esquina.\n\nNombre: ${nombre}\nCorreo: ${email}\nCómo quiero sumarme: ${plan}${mensaje ? `\n\nMensaje:\n${mensaje}` : ''}`;
-    const whatsappUrl = `https://wa.me/59161532375?text=${encodeURIComponent(body)}`;
+    const body = `Quiero registrarme en La Esquina.\n\nNombre: ${nombre}\nCorreo: ${email}\nCómo quiero sumarme: ${plan}${mensaje ? `\n\nMensaje:\n${mensaje}` : ''}`;
+    const whatsappUrl = `https://wa.me/59174189700?text=${encodeURIComponent(body)}`;
     window.location.href = whatsappUrl;
   });
 </script>
