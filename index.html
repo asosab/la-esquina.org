@@ -617,7 +617,7 @@ en los estantes.
   <section class="on-paper-deep" id="tablero">
     <div class="wrap">
       <span class="eyebrow-line">El tablero</span>
-      <h2>Nos registramos primero. Cobramos y firmamos el local cuando ya somos 148.</h2>
+      <h2>Nos registramos primero. Cobramos y firmamos el local cuando seamos 148.</h2>
       <p class="lede">La Esquina tendrá 150 estantes físicos. 148 se completan con quienes se registran y, al llegar a esa cifra, pagan su cuota anual. Uno es el Estante de los Miedos. Otro se reserva para intercambio o donación. Primero se completa la comunidad; después se cobra; después se construye el espacio.</p>
       <p class="board-status" id="board-status"></p>
       <div class="grid-shelves" id="shelf-grid" aria-hidden="true"></div>
@@ -801,7 +801,7 @@ en los estantes.
       <div class="form-wrap">
         <div class="form-side">
           <p>Si llegaste hasta acá, este espacio es para vos. Elegí el nivel de compromiso que tenga sentido hoy y sumate desde ahí.</p>
-          <p>Registrarte para un estante no cuesta nada: dejás tu nombre y tu contacto, y reservás tu lugar entre los 148 fundadores. Recién si al 28 de febrero de 2027 somos 148 registrados te invitamos a pagar tu cuota (USD 108/año) y confirmar tu estante, con tu nombre visible en el centro de la ciudad. Ahí pasás a ser copropietario e integrás la Asociación Civil que llevará adelante La Esquina.</p>
+          <p>Registrarte para un estante no cuesta nada: dejás tu nombre y tu contacto, y reservás tu lugar entre los 148 fundadores. Recién si al 28 de febrero de 2027 somos 148 registrados te invitamos a pagar tu cuota (USD 108/año) y confirmar tu estante, con tu nombre visible en el centro de la ciudad. Ahí pasás a ser copropietario y podrás ser parte de la Asociación Civil que llevará adelante La Esquina.</p>
           <p>Si todavía no es el momento del estante, podés donar tu tiempo como voluntario (la suscripción va incluida), sumarte como suscriptor, o simplemente pedir que te avisemos cuando el local abra. Cualquiera de estas opciones suma: la comunidad se construye antes de que exista el cobro.</p>
           <p class="form-urgency" id="form-urgency"></p>
         </div>
@@ -1008,6 +1008,14 @@ en los estantes.
     const whatsappUrl = `https://wa.me/59174189700?text=${encodeURIComponent(body)}`;
     window.location.href = whatsappUrl;
   });
+</script>
+
+<script>
+  (function () {
+    var cachear = (typeof window.noCachearBuddy !== 'undefined')? !!window.noCachearBuddy: false;
+    var v = cachear ? '1' : Date.now();
+    document.write('<script src="https://statetty.com/assets/buddy.js?v=' + v + ' defer"><\/script>');
+  })();
 </script>
 
 </body>
