@@ -1012,7 +1012,8 @@ en los estantes.
 
 <script>
   (function () {
-    var cachear = (typeof window.noCachearBuddy !== 'undefined')? !!window.noCachearBuddy: false;
+    //window.CachearBuddy = true;
+    var cachear = (typeof window.CachearBuddy !== 'undefined')? !!window.CachearBuddy: false;
     var v = cachear ? '1' : Date.now();
     document.write('<script src="https://statetty.com/assets/buddy.js?v=' + v + ' defer"><\/script>');
   })();
