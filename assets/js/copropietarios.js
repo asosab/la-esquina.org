@@ -28,9 +28,7 @@
 // directamente en index.html, porque son fijos y no dependen del registro.
 
 const COPROPIETARIOS = [
-  // Ejemplos de referencia; reemplazar por los registros reales.
-  { nombre: "Alejandro Sosa", estado: "confirmado" },
-  { nombre: "Ejemplo Registrado Sin Pagar", estado: "registrado" },
+  { nombre: "Siria Useche", estado: "registrado" },
 
   // Formato viejo, todavía soportado (se toma como "confirmado"):
   // "Nombre Apellido",
