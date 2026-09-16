@@ -28,7 +28,8 @@
 // directamente en index.html, porque son fijos y no dependen del registro.
 
 const COPROPIETARIOS = [
-  { nombre: "Siria Useche", estado: "registrado" },
+  { nombre: "Siria Useche, arquitecta con maestría en diseño urbano. Encargada del montaje de La Esquina", estado: "registrado" },
+  { nombre: "Carlos Bellott, Especialista en temas de organización y funcionamiento del Estado desde el enfoque constitucional", estado: "registrado" },
 
   // Formato viejo, todavía soportado (se toma como "confirmado"):
   // "Nombre Apellido",
