@@ -31,6 +31,9 @@ const COPROPIETARIOS = [
   { nombre: "Siria Useche, arquitecta con maestría en diseño urbano. Encargada del montaje de La Esquina", estado: "registrado" },
   { nombre: "Carlos Bellott, Especialista en temas de organización y funcionamiento del Estado desde el enfoque constitucional", estado: "registrado" },
 
+  //{nombre: "Claudia Vaca es poeta, filóloga, investigadora en Educación y Cultura", estado: "registrado" },
+  //{nombre: "Oscar Puky Gutiérrez, Poeta", estado: "registrado" },
+
   // Formato viejo, todavía soportado (se toma como "confirmado"):
   // "Nombre Apellido",
 ];
